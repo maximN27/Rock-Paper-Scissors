@@ -1,0 +1,48 @@
+body {
+    font-family: "Menlo", 'monospace', monospace;
+    background-color: rgb(201, 133, 133);
+    align-content: center;
+}
+
+#container {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 150px;
+    height: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+#rock {
+    background-color: royalblue;
+}
+#paper {
+    background-color: yellowgreen;
+}
+#scissors {
+    background-color: crimson;
+}
+
+#container h1 {
+    font-size: 48px;
+}
+
+#result h1,
+#score h1 {
+    font-size: 24px;
+}
